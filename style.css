@@ -70,6 +70,10 @@ p {
     font-weight: bold;   
 }
 
+.italic {
+    font-style: italic;
+}
+
 section .para {
     font-weight: bold;
     margin-top: 40px; 
