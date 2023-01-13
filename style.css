@@ -81,7 +81,6 @@ section .para {
     border: 1px solid #E5E7EB;
     margin-left: -20px;
     margin-right: -22px;
-    /*height: 240px;*/
 }
 
 article {
@@ -93,21 +92,17 @@ article {
     padding-left: 140px;
 }
 
-input[type=text] {
-    border-color: #E5E7EB;
-}
-
 input[type=text]:focus {
-    border-color: purple;
-    box-shadow: inset #E5E7EB;
+    border: 3px solid lightblue;
+    box-shadow: inset lightblue;
 }
 
 input:invalid {
-    border-color: red;
+    border-color: rgb(225, 98, 98);
 }
 
 input:valid {
-    border-color: green;
+    border-color: rgb(130, 236, 130);
 }
 
 #btn {
